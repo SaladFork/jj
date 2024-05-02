@@ -24,6 +24,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   default branch of the remote as repository settings for
   `revset-aliases."trunk()"`.`
 
+* New command `jj operation diff` that can compare changes made between two
+  operations.
+
 ### Fixed bugs
 
 ## [0.19.0] - 2024-07-03
