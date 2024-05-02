@@ -27,6 +27,9 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * New command `jj operation diff` that can compare changes made between two
   operations.
 
+* New command `jj operation show` that can show the changes made in a single
+  operation.
+
 ### Fixed bugs
 
 ## [0.19.0] - 2024-07-03
@@ -174,7 +177,6 @@ Thanks to the people who made this release happen!
   commit the new commit will be inserted before/after. Previously, those options
   were global flags and specifying them once would insert the new commit before/
   after all the specified commits.
-
 
 ### Deprecations
 
